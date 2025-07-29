@@ -1,0 +1,16 @@
+
+  
+  
+  
+  create or replace view `main`.`dev_bootcamp`.`customer_silver`
+  
+  as (
+    select
+    C_CUSTKEY,
+    C_NAME,
+    C_NATIONKEY,
+    C_ACCTBAL
+from `main`.`dev_bootcamp`.`customer_bronze`
+where C_CUSTKEY is not null
+and C_NATIONKEY != 21
+  )
