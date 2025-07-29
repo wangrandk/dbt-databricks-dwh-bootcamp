@@ -8,4 +8,4 @@ default:
       host: adb-8244316735855513.13.azuredatabricks.net
       # http_path: sql/protocolv1/o/8244316735855513/0728-084543-plhrj99u
       http_path: sql/protocolv1/o/8244316735855513/0610-134817-hnsc403m
-     
+      token: 
